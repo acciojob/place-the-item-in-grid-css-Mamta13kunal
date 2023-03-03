@@ -1,53 +1,18 @@
-
 /* Your CSS Code here. */
-html,
-body {
-    margin: 0;
-    padding: 0;
+.holder{
+	display: grid;
+	grid-template-columns:repeat(2,100px);
+	grid-template-rows:repeat(2,100px);
 }
-
-/* Set the height of the navbar */
-.navbar {
-    background-color: black;
-    color: white;
-    height: 87px;
-    width: 1728px;
-
+.item-1{
+	background:red;
 }
-
-nav {
-    height: 29px;
-    width: 180px;
-    padding-left: 38px;
-    padding-top: 29px;
-    border-radius: 0px;
-    color: white;
+.item-2{
+	background:green;
 }
-
-.second {
-    height: 144px;
-    padding-left: 38px;
-    margin-top: 38px;
+.item-3{
+	background:greenyellow;
 }
-
-.farhin {
-    padding: 38px;
+.item-4{
+	background:skyblue;
 }
-
-button {
-    background-color: black;
-    color: white;
-}
-
-.ahmeda {
-    padding: 38px;
-}
-
-.ronaldo {
-    padding: 38px;
-}
-
-.cl {
-    padding: 38px;
-}
-
